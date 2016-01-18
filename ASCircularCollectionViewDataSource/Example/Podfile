@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ASCircularCollectionViewDatasource_Example', :exclusive => true do
+  pod "ASCircularCollectionViewDatasource", :path => "../"
+end
+
+target 'ASCircularCollectionViewDatasource_Tests', :exclusive => true do
+  pod "ASCircularCollectionViewDatasource", :path => "../"
+
+  pod 'Quick', '~> 0.8.0'
+  pod 'Nimble', '3.0.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end

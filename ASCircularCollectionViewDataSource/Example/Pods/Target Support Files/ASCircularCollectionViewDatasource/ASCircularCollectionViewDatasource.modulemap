@@ -1,0 +1,6 @@
+framework module ASCircularCollectionViewDatasource {
+  umbrella header "ASCircularCollectionViewDatasource-umbrella.h"
+
+  export *
+  module * { export * }
+}
