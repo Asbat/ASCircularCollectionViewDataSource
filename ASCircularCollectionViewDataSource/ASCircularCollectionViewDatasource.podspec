@@ -32,7 +32,7 @@ s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
-'ASCircularCollectionView' => ['Pod/Assets/*.png']
+'ASCircularCollectionViewDatasource' => ['Pod/Assets/*.png']
 }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
